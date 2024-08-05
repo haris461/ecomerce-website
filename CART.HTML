@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CART</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> <!-- Boxicons for icons -->
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <i class='bx bx-menu' id="menu-icon"></i> 
+            <a href="ecommerce.html" class="logo">Costy</a>
+            <div class="navbar">
+                <a href="#" class="nav-link">Women</a>
+                <a href="#" class="nav-link">Men</a>
+                <a href="#" class="nav-link">Kids</a>
+                <a href="#" class="nav-link">Accessories</a>
+            </div>
+            <a href="CART.HTML" class="cart-link">
+                <i class='bx bx-shopping-bag' id="cart-icon" data-quantity="0"></i>
+            </a>
+        </div>
+    </header>
+    <SECTION class="CARD-CONTAINER CONTAINER">
+        <a href="ecomerce.html" class="BACK-HOMEPAGE">
+            <i class='bx bx-chevron-left'></i>
+            <span>back to home page</span>
+        </a>
+        <h2 class="cart-s-titlle">shopping cart</h2>
+        <div class="cart-box">
+            <div class="cart-data">
+                <div id="cartitems"></div>
+            </div>
+            <div class="cart-t">
+                <div id="carttotal"></div>
+                <a href="#" class="checkout-btn">checkout</a>
+            </div>
+        </div>
+    </SECTION>
+
+    <script src="main.js"></script>
+</body>
+</html>
